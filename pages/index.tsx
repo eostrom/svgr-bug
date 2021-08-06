@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { ReactComponent as Red } from '../public/images/red.svg'
 import green from '../public/images/green.svg'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Image src={green} width="200" height="50" />
+        <Red width="200" height="50" />
       </main>
     </div>
   )
